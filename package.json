@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "install-all": "npm install --prefix project/web",
-    "build": "npm run build --prefix project/web",
+    "build": "npm run build --prefix project/web && cp -r project/web/dist .",
     "dev": "npm run dev --prefix project/web"
   }
 }
