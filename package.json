@@ -1,0 +1,9 @@
+{
+  "name": "fischer-detector-root",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install --prefix project/web",
+    "build": "npm run build --prefix project/web",
+    "dev": "npm run dev --prefix project/web"
+  }
+}

@@ -133,7 +133,7 @@ The **Malicious URL Detection Engine** calculates its final probability ($P$):
 
 ---
 
-## 🚀 ShieldLink Web Application
+## 🚀 Fischer Detector Web Application
 
 We have built a modern, full-stack web application to interact with the model in real-time.
 

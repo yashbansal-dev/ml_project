@@ -8,7 +8,7 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from src.feature_extraction import extract_features_from_url
 
-app = FastAPI(title="ShieldLink AI API")
+app = FastAPI(title="Fischer Detector API")
 
 # Enable CORS
 app.add_middleware(
@@ -50,7 +50,7 @@ TRUSTED_BRANDS = {
 @app.get("/")
 async def root():
     return {
-        "message": "ShieldLink AI Malicious URL Detection API is running.",
+        "message": "Fischer Detector Malicious URL Detection API is running.",
         "version": "1.1.0",
         "status": "active"
     }

@@ -16,4 +16,4 @@ This confusion matrix represents our top-performing model after advanced feature
 2.  **High Reliability:** Very few False Positives, ensuring legitimate sites aren't blocked unnecessarily.
 
 ## Conclusion
-Random Forest is the backbone of ShieldLink AI due to its consistent high performance and robustness against various URL obfuscation techniques.
+Random Forest is the backbone of Fischer Detector due to its consistent high performance and robustness against various URL obfuscation techniques.
